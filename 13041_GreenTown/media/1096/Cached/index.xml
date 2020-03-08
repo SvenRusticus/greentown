@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>BEA_0484-kopie.jpg</originalFileName>
+    <size>738461</size>
+    <dateLastModified>Thu, 04 Jul 2013 16:51:29 GMT</dateLastModified>
+    <width>2000</width>
+    <height>973</height>
+    <cachedImage>
+      <fileName>mzqrc12y.jpeg</fileName>
+      <dateCreated>Tue, 09 Jul 2013 13:02:51 GMT</dateCreated>
+      <dateLastAccessed>Tue, 09 Jul 2013 13:02:51 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>156</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>sgkzf23r.jpeg</fileName>
+      <dateCreated>Tue, 09 Jul 2013 13:04:41 GMT</dateCreated>
+      <dateLastAccessed>Thu, 19 Sep 2019 17:32:17 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>780</width>
+      <height>379</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+  <image>
+    <originalFileName>bea_0484-kopie.jpg</originalFileName>
+    <size>738461</size>
+    <dateLastModified>Thu, 04 Jul 2013 16:51:29 GMT</dateLastModified>
+    <width>2000</width>
+    <height>973</height>
+    <cachedImage>
+      <fileName>mwpyuyty.jpeg</fileName>
+      <dateCreated>Thu, 02 Jul 2015 09:37:23 GMT</dateCreated>
+      <dateLastAccessed>Thu, 18 Aug 2016 11:06:00 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>780</width>
+      <height>379</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

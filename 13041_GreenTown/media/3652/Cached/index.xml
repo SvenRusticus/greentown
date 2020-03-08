@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>GreenTown-Amigoe-september-2014.png</originalFileName>
+    <size>3481521</size>
+    <dateLastModified>Tue, 16 Sep 2014 21:14:42 GMT</dateLastModified>
+    <width>2012</width>
+    <height>1722</height>
+    <cachedImage>
+      <fileName>0oqawc2o.png</fileName>
+      <dateCreated>Tue, 16 Sep 2014 21:16:17 GMT</dateCreated>
+      <dateLastAccessed>Thu, 18 Jun 2015 04:01:04 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <width>320</width>
+      <height>240</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+    <cachedImage>
+      <fileName>md4hzon2.png</fileName>
+      <dateCreated>Tue, 16 Sep 2014 21:17:40 GMT</dateCreated>
+      <dateLastAccessed>Mon, 23 Sep 2019 06:21:30 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <width>320</width>
+      <height>274</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

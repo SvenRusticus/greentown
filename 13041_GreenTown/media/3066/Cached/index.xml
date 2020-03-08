@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>Tobago-and-GreenTown.jpg</originalFileName>
+    <size>679595</size>
+    <dateLastModified>Wed, 12 Feb 2014 13:19:04 GMT</dateLastModified>
+    <width>1824</width>
+    <height>1368</height>
+    <cachedImage>
+      <fileName>if43sg1c.jpeg</fileName>
+      <dateCreated>Wed, 12 Feb 2014 13:19:48 GMT</dateCreated>
+      <dateLastAccessed>Wed, 13 Jun 2018 07:08:28 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>240</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>

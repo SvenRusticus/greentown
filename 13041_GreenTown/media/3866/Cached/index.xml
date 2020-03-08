@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>GreenTown-MDT-Presentation.png</originalFileName>
+    <size>510673</size>
+    <dateLastModified>Mon, 19 Jan 2015 21:48:15 GMT</dateLastModified>
+    <width>1888</width>
+    <height>1726</height>
+    <cachedImage>
+      <fileName>rksjddfa.png</fileName>
+      <dateCreated>Mon, 19 Jan 2015 21:48:47 GMT</dateCreated>
+      <dateLastAccessed>Tue, 12 Jun 2018 23:08:06 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <width>320</width>
+      <height>320</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>

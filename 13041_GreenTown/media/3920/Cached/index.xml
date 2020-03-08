@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>Voor-de-kpning-gaat-de-Isla-wel-plat.png</originalFileName>
+    <size>611317</size>
+    <dateLastModified>Sun, 01 Feb 2015 17:08:10 GMT</dateLastModified>
+    <width>1281</width>
+    <height>1048</height>
+    <cachedImage>
+      <fileName>lku35anj.png</fileName>
+      <dateCreated>Sun, 01 Feb 2015 17:11:52 GMT</dateCreated>
+      <dateLastAccessed>Mon, 23 Sep 2019 06:22:43 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <width>320</width>
+      <height>262</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>gcqmqk0b.png</fileName>
+      <dateCreated>Sun, 01 Feb 2015 18:08:24 GMT</dateCreated>
+      <dateLastAccessed>Fri, 15 Jun 2018 22:44:22 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <width>320</width>
+      <height>240</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>

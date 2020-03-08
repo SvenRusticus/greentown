@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>GreenTown-Blue-Ocean-Strategy.png</originalFileName>
+    <size>1446751</size>
+    <dateLastModified>Thu, 20 Mar 2014 19:19:16 GMT</dateLastModified>
+    <width>1252</width>
+    <height>1772</height>
+    <cachedImage>
+      <fileName>gjnzvvpt.png</fileName>
+      <dateCreated>Thu, 20 Mar 2014 19:28:38 GMT</dateCreated>
+      <dateLastAccessed>Thu, 20 Mar 2014 19:28:38 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <width>320</width>
+      <height>240</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>EIB-GreenTown.jpeg</originalFileName>
+    <size>651586</size>
+    <dateLastModified>Fri, 12 Jul 2013 21:17:27 GMT</dateLastModified>
+    <width>1632</width>
+    <height>1224</height>
+    <cachedImage>
+      <fileName>0p2etxsk.jpeg</fileName>
+      <dateCreated>Fri, 12 Jul 2013 21:18:48 GMT</dateCreated>
+      <dateLastAccessed>Wed, 18 Sep 2019 11:59:28 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>240</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>Antilliaans-Dagblad-15022013.jpg</originalFileName>
+    <size>3467206</size>
+    <dateLastModified>Fri, 12 Jul 2013 20:57:45 GMT</dateLastModified>
+    <width>1240</width>
+    <height>1754</height>
+    <cachedImage>
+      <fileName>uzb1ajq2.jpeg</fileName>
+      <dateCreated>Fri, 12 Jul 2013 20:59:12 GMT</dateCreated>
+      <dateLastAccessed>Fri, 08 Jun 2018 07:09:37 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>453</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

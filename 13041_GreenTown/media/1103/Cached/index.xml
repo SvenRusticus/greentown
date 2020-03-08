@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>28-kindje-met-inhalator-1-.jpg</originalFileName>
+    <size>12667</size>
+    <dateLastModified>Thu, 04 Jul 2013 16:54:59 GMT</dateLastModified>
+    <width>350</width>
+    <height>257</height>
+    <cachedImage>
+      <fileName>yrnscsin.jpeg</fileName>
+      <dateCreated>Tue, 09 Jul 2013 13:02:51 GMT</dateCreated>
+      <dateLastAccessed>Tue, 09 Jul 2013 13:02:51 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>235</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>4khaosbe.jpeg</fileName>
+      <dateCreated>Tue, 09 Jul 2013 13:04:40 GMT</dateCreated>
+      <dateLastAccessed>Mon, 23 Sep 2019 07:23:54 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>780</width>
+      <height>573</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

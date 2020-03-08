@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>eib.jpeg</originalFileName>
+    <size>110519</size>
+    <dateLastModified>Sat, 23 Dec 2017 09:48:07 GMT</dateLastModified>
+    <width>790</width>
+    <height>790</height>
+    <cachedImage>
+      <fileName>wxfyo5hd.jpeg</fileName>
+      <dateCreated>Sat, 23 Dec 2017 09:48:22 GMT</dateCreated>
+      <dateLastAccessed>Mon, 16 Sep 2019 19:39:56 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>320</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>

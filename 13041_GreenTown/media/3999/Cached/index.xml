@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>GreenTown-serka-Min-Pres.jpg</originalFileName>
+    <size>161016</size>
+    <dateLastModified>Fri, 18 Aug 2017 14:52:25 GMT</dateLastModified>
+    <width>1600</width>
+    <height>1200</height>
+    <cachedImage>
+      <fileName>qwp3mro3.jpeg</fileName>
+      <dateCreated>Fri, 18 Aug 2017 14:53:27 GMT</dateCreated>
+      <dateLastAccessed>Tue, 05 Jun 2018 02:37:51 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>240</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+    <cachedImage>
+      <fileName>r34xa5tk.jpeg</fileName>
+      <dateCreated>Fri, 18 Aug 2017 17:35:52 GMT</dateCreated>
+      <dateLastAccessed>Wed, 13 Jun 2018 03:39:48 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>240</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>

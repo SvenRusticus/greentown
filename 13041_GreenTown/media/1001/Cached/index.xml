@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>greentown2013.png</originalFileName>
+    <size>203158</size>
+    <dateLastModified>Wed, 05 Jun 2013 09:49:41 GMT</dateLastModified>
+    <width>518</width>
+    <height>236</height>
+    <cachedImage>
+      <fileName>xvkass33.png</fileName>
+      <dateCreated>Wed, 05 Jun 2013 11:19:59 GMT</dateCreated>
+      <dateLastAccessed>Tue, 09 Jul 2013 12:52:46 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <rotate>0</rotate>
+      <flip />
+      <colorMode />
+      <crop>resize</crop>
+      <width>518</width>
+      <height>236</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+      <overlayImages>
+        <overlayImage>
+          <filename>newsImgBG.png</filename>
+          <size>7381</size>
+          <dateLastModified>Wed, 05 Jun 2013 11:11:45 GMT</dateLastModified>
+        </overlayImage>
+      </overlayImages>
+    </cachedImage>
+    <cachedImage>
+      <fileName>1riobun0.png</fileName>
+      <dateCreated>Wed, 05 Jun 2013 11:20:43 GMT</dateCreated>
+      <dateLastAccessed>Wed, 05 Jun 2013 11:21:16 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <rotate>0</rotate>
+      <flip />
+      <colorMode />
+      <crop>resize</crop>
+      <width>320</width>
+      <height>236</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+      <overlayImages>
+        <overlayImage>
+          <filename>newsImgBG.png</filename>
+          <size>7381</size>
+          <dateLastModified>Wed, 05 Jun 2013 11:11:45 GMT</dateLastModified>
+        </overlayImage>
+      </overlayImages>
+    </cachedImage>
+    <cachedImage>
+      <fileName>cievmkvn.png</fileName>
+      <dateCreated>Wed, 05 Jun 2013 11:21:48 GMT</dateCreated>
+      <dateLastAccessed>Fri, 28 Jun 2013 10:20:10 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <rotate>0</rotate>
+      <flip />
+      <colorMode />
+      <crop>resize</crop>
+      <width>320</width>
+      <height>236</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+    <cachedImage>
+      <fileName>wl3ptz45.png</fileName>
+      <dateCreated>Fri, 28 Jun 2013 14:15:11 GMT</dateCreated>
+      <dateLastAccessed>Tue, 09 Jul 2013 12:51:26 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <width>320</width>
+      <height>320</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+    <cachedImage>
+      <fileName>dwd2jveo.png</fileName>
+      <dateCreated>Tue, 09 Jul 2013 12:48:23 GMT</dateCreated>
+      <dateLastAccessed>Fri, 12 Jul 2013 20:51:57 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <width>320</width>
+      <height>146</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>

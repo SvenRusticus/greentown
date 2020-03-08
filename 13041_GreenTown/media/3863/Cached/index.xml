@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>GreenTown-MDT-Presentation.png</originalFileName>
+    <size>530234</size>
+    <dateLastModified>Mon, 19 Jan 2015 21:38:29 GMT</dateLastModified>
+    <width>2312</width>
+    <height>1730</height>
+    <cachedImage>
+      <fileName>xpsn2ugi.png</fileName>
+      <dateCreated>Mon, 19 Jan 2015 21:39:06 GMT</dateCreated>
+      <dateLastAccessed>Mon, 19 Jan 2015 21:39:06 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <width>320</width>
+      <height>320</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>

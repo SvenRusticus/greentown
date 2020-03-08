@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>Voor-drie-miljard-het-ship-in-AD.jpg</originalFileName>
+    <size>387301</size>
+    <dateLastModified>Sun, 01 Feb 2015 16:57:22 GMT</dateLastModified>
+    <width>1364</width>
+    <height>954</height>
+    <cachedImage>
+      <fileName>pc2qs4yu.jpeg</fileName>
+      <dateCreated>Sun, 01 Feb 2015 17:00:52 GMT</dateCreated>
+      <dateLastAccessed>Sun, 01 Feb 2015 17:04:36 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>240</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+    <cachedImage>
+      <fileName>ozcrdlgn.jpeg</fileName>
+      <dateCreated>Sun, 01 Feb 2015 17:01:24 GMT</dateCreated>
+      <dateLastAccessed>Mon, 23 Sep 2019 06:20:56 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>224</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

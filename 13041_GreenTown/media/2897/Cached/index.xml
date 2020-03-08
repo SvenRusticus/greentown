@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>AD-4-december-Rotmans.jpg</originalFileName>
+    <size>1010862</size>
+    <dateLastModified>Tue, 10 Dec 2013 23:16:12 GMT</dateLastModified>
+    <width>1240</width>
+    <height>1754</height>
+    <cachedImage>
+      <fileName>l1q5n2jn.jpeg</fileName>
+      <dateCreated>Tue, 10 Dec 2013 23:23:00 GMT</dateCreated>
+      <dateLastAccessed>Mon, 16 Mar 2015 05:47:01 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>240</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+      <align>center</align>
+      <valign>middle</valign>
+    </cachedImage>
+    <cachedImage>
+      <fileName>0ngh4bgo.jpeg</fileName>
+      <dateCreated>Tue, 10 Dec 2013 23:23:13 GMT</dateCreated>
+      <dateLastAccessed>Wed, 18 Sep 2019 11:59:28 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>453</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

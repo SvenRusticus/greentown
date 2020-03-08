@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>Oil-spill-Jan-Kok-Flamingos.jpg</originalFileName>
+    <size>60783</size>
+    <dateLastModified>Fri, 12 Jul 2013 20:31:04 GMT</dateLastModified>
+    <width>960</width>
+    <height>609</height>
+    <cachedImage>
+      <fileName>wxk2feit.jpeg</fileName>
+      <dateCreated>Fri, 12 Jul 2013 20:51:19 GMT</dateCreated>
+      <dateLastAccessed>Thu, 19 Sep 2019 17:52:06 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>780</width>
+      <height>495</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+  <image>
+    <originalFileName>oil-spill-jan-kok-flamingos.jpg</originalFileName>
+    <size>60783</size>
+    <dateLastModified>Fri, 12 Jul 2013 20:31:04 GMT</dateLastModified>
+    <width>960</width>
+    <height>609</height>
+    <cachedImage>
+      <fileName>oyomnmrt.jpeg</fileName>
+      <dateCreated>Thu, 02 Jul 2015 09:38:17 GMT</dateCreated>
+      <dateLastAccessed>Thu, 18 Aug 2016 11:06:01 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>780</width>
+      <height>495</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>Isla-Pollution-6.jpg</originalFileName>
+    <size>945317</size>
+    <dateLastModified>Tue, 16 Jul 2013 16:22:11 GMT</dateLastModified>
+    <width>2048</width>
+    <height>1536</height>
+    <cachedImage>
+      <fileName>zhee1ded.jpeg</fileName>
+      <dateCreated>Tue, 16 Jul 2013 16:22:42 GMT</dateCreated>
+      <dateLastAccessed>Sun, 22 Sep 2019 08:26:47 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>780</width>
+      <height>585</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+  <image>
+    <originalFileName>isla-pollution-6.jpg</originalFileName>
+    <size>945317</size>
+    <dateLastModified>Tue, 16 Jul 2013 16:22:11 GMT</dateLastModified>
+    <width>2048</width>
+    <height>1536</height>
+    <cachedImage>
+      <fileName>4bppks3j.jpeg</fileName>
+      <dateCreated>Thu, 02 Jul 2015 09:37:53 GMT</dateCreated>
+      <dateLastAccessed>Thu, 18 Aug 2016 11:06:01 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>780</width>
+      <height>585</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

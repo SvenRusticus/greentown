@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>Tweets-Doutzen-Kroes.jpeg</originalFileName>
+    <size>33215</size>
+    <dateLastModified>Fri, 12 Jul 2013 21:09:13 GMT</dateLastModified>
+    <width>541</width>
+    <height>152</height>
+    <cachedImage>
+      <fileName>kxvhellq.jpeg</fileName>
+      <dateCreated>Fri, 12 Jul 2013 21:09:50 GMT</dateCreated>
+      <dateLastAccessed>Wed, 18 Sep 2019 11:59:28 GMT</dateLastAccessed>
+      <imageFormat>jpeg</imageFormat>
+      <compression>90</compression>
+      <width>320</width>
+      <height>90</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>False</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>
