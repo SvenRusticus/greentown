@@ -1,0 +1,682 @@
+2020-03-08 07:45:22,220 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2020-03-08 07:45:22,320 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 95ms)
+2020-03-08 07:45:22,325 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-03-08 07:45:22,427 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 101ms)
+2020-03-08 07:45:22,446 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-03-08 07:45:22,449 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2020-03-08 07:45:22,450 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-03-08 07:45:22,453 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 1 (took 2ms)
+2020-03-08 07:45:22,453 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-03-08 07:45:22,456 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 3ms)
+2020-03-08 07:45:22,458 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-03-08 07:45:22,461 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2020-03-08 07:45:22,461 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-03-08 07:45:22,464 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2020-03-08 07:45:22,609 [18] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2020-03-08 07:45:22,846 [18] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2020-03-08 07:45:22,850 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2020-03-08 07:45:22,856 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2020-03-08 07:45:22,900 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 07:45:22,914 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 14ms)
+2020-03-08 07:45:23,079 [18] INFO  umbraco.content - [Thread 5] Loading content from disk cache...
+2020-03-08 07:45:26,197 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-03-08 07:45:26,201 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2020-03-08 07:45:27,735 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IDataType
+2020-03-08 07:45:27,749 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 15ms)
+2020-03-08 07:45:27,753 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 07:45:27,767 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 13ms)
+2020-03-08 07:45:27,780 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2020-03-08 07:45:27,783 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2020-03-08 07:45:33,400 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 5] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 07:45:33,400 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 7] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 07:45:52,536 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-03-08 07:45:52,542 [18] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2020-03-08 07:45:53,253 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 7] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 07:45:53,254 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 5] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 07:45:53,254 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 14] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 07:46:13,062 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 7] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 07:46:13,063 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 5] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 07:46:25,749 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 7] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 07:46:25,750 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 8] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 08:05:34,957 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2020-03-08 08:05:35,053 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 93ms)
+2020-03-08 08:05:35,057 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-03-08 08:05:35,157 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 98ms)
+2020-03-08 08:05:35,168 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-03-08 08:05:35,171 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2020-03-08 08:05:35,172 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-03-08 08:05:35,175 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 1 (took 3ms)
+2020-03-08 08:05:35,175 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-03-08 08:05:35,178 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 2ms)
+2020-03-08 08:05:35,179 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-03-08 08:05:35,182 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2020-03-08 08:05:35,182 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-03-08 08:05:35,186 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2020-03-08 08:05:35,299 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2020-03-08 08:05:35,485 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2020-03-08 08:05:35,495 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2020-03-08 08:05:35,502 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2020-03-08 08:05:35,539 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 08:05:35,555 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 15ms)
+2020-03-08 08:05:35,694 [6] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2020-03-08 08:05:36,499 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-03-08 08:05:36,504 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 4ms)
+2020-03-08 08:05:37,461 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.IDataType
+2020-03-08 08:05:37,475 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 13ms)
+2020-03-08 08:05:37,478 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 08:05:37,494 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 15ms)
+2020-03-08 08:05:37,505 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2020-03-08 08:05:37,509 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2020-03-08 08:05:40,453 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 17] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 08:05:40,453 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 13] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 08:05:52,604 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 12] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 08:05:52,605 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 9] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 08:06:05,243 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-03-08 08:06:05,247 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 3ms)
+2020-03-08 08:06:06,168 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 19] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 08:06:06,169 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 9] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 08:06:13,233 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 10] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 17:24:10,819 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2020-03-08 17:24:10,935 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 112ms)
+2020-03-08 17:24:10,939 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-03-08 17:24:11,038 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 99ms)
+2020-03-08 17:24:11,052 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-03-08 17:24:11,055 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2020-03-08 17:24:11,055 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-03-08 17:24:11,058 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 1 (took 2ms)
+2020-03-08 17:24:11,058 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-03-08 17:24:11,062 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 3ms)
+2020-03-08 17:24:11,063 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-03-08 17:24:11,067 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2020-03-08 17:24:11,067 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-03-08 17:24:11,070 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2020-03-08 17:24:11,182 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2020-03-08 17:24:11,364 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2020-03-08 17:24:11,374 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2020-03-08 17:24:11,380 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2020-03-08 17:24:11,421 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 17:24:11,436 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 14ms)
+2020-03-08 17:24:11,575 [6] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2020-03-08 17:24:12,363 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-03-08 17:24:12,367 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2020-03-08 17:24:13,354 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.IDataType
+2020-03-08 17:24:13,368 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 13ms)
+2020-03-08 17:24:13,371 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 17:24:13,384 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 13ms)
+2020-03-08 17:24:13,396 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2020-03-08 17:24:13,401 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 4ms)
+2020-03-08 17:24:16,555 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 9] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 17:24:16,555 [6] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 20] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Stephen\Downloads\wetransfer-5450d2\13041_GreenTown\13041_GreenTown\13041_GreenTown\ImageGen.ashx(12): error CS0246: The type or namespace name 'ImageGen' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.SimpleHandlerFactory.System.Web.IHttpHandlerFactory2.GetHandler(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.SimpleHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-03-08 17:24:30,102 [6] INFO  umbraco.BasePages.BasePage - [Thread 9] User Greentown (Id: 0) logged in
+2020-03-08 17:24:30,231 [6] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2020-03-08 17:24:30,234 [6] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2020-03-08 17:24:31,708 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-03-08 17:24:31,714 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2020-03-08 17:24:37,093 [6] ERROR dashboardUtilities.FeedProxy - [Thread 20] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-03-08 17:24:39,530 [6] ERROR dashboardUtilities.FeedProxy - [Thread 10] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-03-08 17:25:27,645 [6] INFO  umbraco.BusinessLogic.Log - [Thread 15] Log scrubbed.  Removed all items older than 2020-01-08 17:25:27
+2020-03-08 17:25:27,647 [6] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 15] Application shutdown. Reason: BinDirChangeOrDirectoryRename
+2020-03-08 17:25:30,597 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2020-03-08 17:25:30,693 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 93ms)
+2020-03-08 17:25:30,698 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-03-08 17:25:30,791 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 91ms)
+2020-03-08 17:25:30,802 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-03-08 17:25:30,805 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2020-03-08 17:25:30,806 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-03-08 17:25:30,809 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 1 (took 3ms)
+2020-03-08 17:25:30,809 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-03-08 17:25:30,812 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 3ms)
+2020-03-08 17:25:30,813 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-03-08 17:25:30,817 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2020-03-08 17:25:30,817 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-03-08 17:25:30,820 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2020-03-08 17:25:30,921 [23] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2020-03-08 17:25:31,037 [23] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2020-03-08 17:25:31,040 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2020-03-08 17:25:31,045 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2020-03-08 17:25:31,080 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 17:25:31,100 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 19ms)
+2020-03-08 17:25:32,597 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.IApplication
+2020-03-08 17:25:32,602 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2020-03-08 17:25:32,610 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 17:25:32,627 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 16ms)
+2020-03-08 17:25:32,646 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2020-03-08 17:25:32,653 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 7ms)
+2020-03-08 17:25:32,678 [23] INFO  umbraco.content - [Thread 11] Loading content from database...
+2020-03-08 17:25:33,273 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 17:25:33,342 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 69ms)
+2020-03-08 17:25:33,346 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 17:25:33,346 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 0ms)
+2020-03-08 17:25:33,356 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2020-03-08 17:25:33,371 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 15ms)
+2020-03-08 17:25:33,371 [23] ERROR umbraco.cms.businesslogic.web.DocumentType - [Thread 11] Exception while trying to build DTD for Xml schema; is Umbraco installed correctly and the connection string configured?
+System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+   at Umbraco.Core.ObjectResolution.Resolution.EnsureIsFrozen()
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.StringExtensions.get_ShortStringHelper()
+   at Umbraco.Core.Models.Template..ctor(String path, String name, String alias)
+   at Umbraco.Core.Persistence.Factories.TemplateFactory.BuildEntity(TemplateDto dto)
+   at Umbraco.Core.Persistence.Repositories.TemplateRepository.PerformGet(Int32 id)
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.Get(TId id)
+   at Umbraco.Core.Persistence.Repositories.ContentTypeRepository.<PerformGet>b__0(DocumentTypeDto template)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Persistence.Repositories.ContentTypeRepository.PerformGet(Int32 id)
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.Get(TId id)
+   at Umbraco.Core.Persistence.Repositories.ContentTypeRepository.<PerformGetAll>d__2.MoveNext()
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.GetAll(TId[] ids)
+   at Umbraco.Core.Services.ContentTypeService.GetAllContentTypes(Int32[] ids)
+   at umbraco.cms.businesslogic.web.DocumentType.GetAllAsList()
+   at umbraco.cms.businesslogic.web.DocumentType.GenerateXmlDocumentType()
+2020-03-08 17:25:33,371 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2020-03-08 17:25:33,371 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 0ms)
+2020-03-08 17:25:40,623 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-03-08 17:25:40,627 [23] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2020-03-08 17:25:40,631 [23] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: NivoSlider.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:25:40,743 [23] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: PublicationsPartial.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:25:40,772 [23] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: memberInGroup.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:25:40,801 [23] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: newsPartial.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:25:41,788 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1047. This is most likely caused by the page not being published.
+2020-03-08 17:25:41,791 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1196. This is most likely caused by the page not being published.
+2020-03-08 17:25:41,791 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1135. This is most likely caused by the page not being published.
+2020-03-08 17:25:41,791 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1176. This is most likely caused by the page not being published.
+2020-03-08 17:25:41,791 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1096. This is most likely caused by the page not being published.
+2020-03-08 17:25:41,791 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1066. This is most likely caused by the page not being published.
+2020-03-08 17:25:41,791 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1122. This is most likely caused by the page not being published.
+2020-03-08 17:26:00,880 [23] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-03-08 17:26:00,884 [23] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 3ms)
+2020-03-08 17:26:02,414 [23] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: NivoSlider.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:26:02,415 [23] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: PublicationsPartial.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:26:02,415 [23] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: memberInGroup.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:26:02,415 [23] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: newsPartial.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:26:02,417 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1047. This is most likely caused by the page not being published.
+2020-03-08 17:26:02,417 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1196. This is most likely caused by the page not being published.
+2020-03-08 17:26:02,417 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1135. This is most likely caused by the page not being published.
+2020-03-08 17:26:02,417 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1176. This is most likely caused by the page not being published.
+2020-03-08 17:26:02,417 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1096. This is most likely caused by the page not being published.
+2020-03-08 17:26:02,417 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1066. This is most likely caused by the page not being published.
+2020-03-08 17:26:02,417 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1122. This is most likely caused by the page not being published.
+2020-03-08 17:27:03,024 [23] ERROR dashboardUtilities.FeedProxy - [Thread 15] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-03-08 17:27:28,992 [23] WARN  umbraco.macro - [Thread 15] Error loading MacroEngine script (file: NivoSlider.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:27:28,993 [23] WARN  umbraco.macro - [Thread 15] Error loading MacroEngine script (file: PublicationsPartial.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:27:28,993 [23] WARN  umbraco.macro - [Thread 15] Error loading MacroEngine script (file: memberInGroup.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:27:28,994 [23] WARN  umbraco.macro - [Thread 15] Error loading MacroEngine script (file: newsPartial.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:27:28,998 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=1047. This is most likely caused by the page not being published.
+2020-03-08 17:27:28,999 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=1196. This is most likely caused by the page not being published.
+2020-03-08 17:27:28,999 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=1135. This is most likely caused by the page not being published.
+2020-03-08 17:27:28,999 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=1176. This is most likely caused by the page not being published.
+2020-03-08 17:27:28,999 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=1096. This is most likely caused by the page not being published.
+2020-03-08 17:27:28,999 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=1066. This is most likely caused by the page not being published.
+2020-03-08 17:27:28,999 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=1122. This is most likely caused by the page not being published.
+2020-03-08 17:27:37,636 [23] ERROR dashboardUtilities.FeedProxy - [Thread 15] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-03-08 17:27:49,917 [23] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2020-03-08 17:27:49,923 [23] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 5ms)
+2020-03-08 17:27:49,928 [23] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2020-03-08 17:27:49,932 [23] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 1 (took 3ms)
+2020-03-08 17:27:49,967 [23] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2020-03-08 17:27:49,967 [23] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 0ms)
+2020-03-08 17:27:49,994 [23] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2020-03-08 17:27:49,994 [23] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 0ms)
+2020-03-08 17:27:50,322 [23] INFO  umbraco.BusinessLogic.Log - [Thread 10] Log scrubbed.  Removed all items older than 2020-01-08 17:27:50
+2020-03-08 17:27:50,324 [23] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 10] Application shutdown. Reason: BrowsersDirChangeOrDirectoryRename
+2020-03-08 17:27:53,776 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Determining hash of code files on disk
+2020-03-08 17:27:53,864 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Hash determined (took 85ms)
+2020-03-08 17:27:53,868 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-03-08 17:27:53,965 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 95ms)
+2020-03-08 17:27:53,975 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-03-08 17:27:53,978 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2020-03-08 17:27:53,979 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-03-08 17:27:53,982 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 1 (took 2ms)
+2020-03-08 17:27:53,982 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-03-08 17:27:53,985 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 2ms)
+2020-03-08 17:27:53,986 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-03-08 17:27:53,990 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2020-03-08 17:27:53,990 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-03-08 17:27:53,994 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2020-03-08 17:27:54,087 [25] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 44] Initializing Examine and binding to business logic events
+2020-03-08 17:27:54,205 [25] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 44] Adding examine event handlers for index providers: 3
+2020-03-08 17:27:54,208 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of umbraco.interfaces.IApplication
+2020-03-08 17:27:54,214 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 5ms)
+2020-03-08 17:27:54,248 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 17:27:54,263 [25] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 14ms)
+2020-03-08 17:27:54,362 [25] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2020-03-08 17:27:54,368 [25] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 5ms)
+2020-03-08 17:27:54,371 [25] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2020-03-08 17:27:54,375 [25] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 1 (took 3ms)
+2020-03-08 17:27:54,525 [25] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2020-03-08 17:27:54,525 [25] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 0ms)
+2020-03-08 17:27:54,553 [25] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2020-03-08 17:27:54,553 [25] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 0ms)
+2020-03-08 17:28:04,788 [25] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2020-03-08 17:28:04,788 [25] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 0ms)
+2020-03-08 17:28:11,522 [25] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 17:28:11,538 [25] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 15ms)
+2020-03-08 17:28:11,585 [25] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2020-03-08 17:28:11,588 [25] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2020-03-08 17:28:13,771 [25] ERROR dashboardUtilities.FeedProxy - [Thread 12] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-03-08 17:28:29,834 [25] ERROR dashboardUtilities.FeedProxy - [Thread 17] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-03-08 17:28:31,230 [25] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2020-03-08 17:28:33,619 [25] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-03-08 17:28:33,624 [25] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2020-03-08 17:28:33,627 [25] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: NivoSlider.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:28:33,742 [25] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: PublicationsPartial.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:28:33,770 [25] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: memberInGroup.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:28:33,801 [25] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: newsPartial.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:28:34,751 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1047. This is most likely caused by the page not being published.
+2020-03-08 17:28:34,753 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1196. This is most likely caused by the page not being published.
+2020-03-08 17:28:34,753 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1135. This is most likely caused by the page not being published.
+2020-03-08 17:28:34,753 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1176. This is most likely caused by the page not being published.
+2020-03-08 17:28:34,753 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1096. This is most likely caused by the page not being published.
+2020-03-08 17:28:34,753 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1066. This is most likely caused by the page not being published.
+2020-03-08 17:28:34,753 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1122. This is most likely caused by the page not being published.
+2020-03-08 17:28:37,912 [25] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-03-08 17:28:37,917 [25] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2020-03-08 17:28:45,827 [25] ERROR dashboardUtilities.FeedProxy - [Thread 16] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-03-08 17:29:22,962 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2020-03-08 17:29:23,055 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 90ms)
+2020-03-08 17:29:23,060 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-03-08 17:29:23,163 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 101ms)
+2020-03-08 17:29:23,175 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-03-08 17:29:23,179 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2020-03-08 17:29:23,180 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-03-08 17:29:23,183 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 1 (took 3ms)
+2020-03-08 17:29:23,183 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-03-08 17:29:23,186 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 2ms)
+2020-03-08 17:29:23,188 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-03-08 17:29:23,193 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2020-03-08 17:29:23,194 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-03-08 17:29:23,197 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2020-03-08 17:29:23,321 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2020-03-08 17:29:23,502 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2020-03-08 17:29:23,515 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2020-03-08 17:29:23,523 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2020-03-08 17:29:23,568 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 17:29:23,586 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 17ms)
+2020-03-08 17:29:23,727 [6] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2020-03-08 17:29:24,525 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-03-08 17:29:24,529 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2020-03-08 17:29:24,535 [6] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: NivoSlider.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:29:24,685 [6] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: PublicationsPartial.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:29:24,713 [6] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: memberInGroup.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:29:24,742 [6] WARN  umbraco.macro - [Thread 10] Error loading MacroEngine script (file: newsPartial.cshtml, Type: ''. Exception: System.ArgumentException: Current node is null. This might be due to previewing an unpublished node. As the NodeFactory works with published data, macros using the node factory won't work in preview mode.
+Parameter name: Current node is 1047
+   at umbraco.NodeFactory.Node.getCurrentNodeId()
+   at umbraco.macro.loadMacroScript(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+2020-03-08 17:29:24,792 [6] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1047. This is most likely caused by the page not being published.
+2020-03-08 17:29:24,795 [6] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1196. This is most likely caused by the page not being published.
+2020-03-08 17:29:24,795 [6] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1135. This is most likely caused by the page not being published.
+2020-03-08 17:29:24,795 [6] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1176. This is most likely caused by the page not being published.
+2020-03-08 17:29:24,795 [6] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1096. This is most likely caused by the page not being published.
+2020-03-08 17:29:24,795 [6] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1066. This is most likely caused by the page not being published.
+2020-03-08 17:29:24,795 [6] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=1122. This is most likely caused by the page not being published.
+2020-03-08 17:29:35,474 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2020-03-08 17:29:35,478 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 3ms)
+2020-03-08 17:29:35,573 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 17:29:35,587 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 15ms)
+2020-03-08 17:29:36,585 [6] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-03-08 17:29:36,589 [6] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)
+2020-03-08 17:29:37,631 [6] ERROR dashboardUtilities.FeedProxy - [Thread 11] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-03-08 17:31:08,773 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2020-03-08 17:31:08,780 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 7ms)
+2020-03-08 17:31:08,811 [6] INFO  umbraco.content - [Thread 11] Loading content from database...
+2020-03-08 17:31:19,092 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.interfaces.IDataType
+2020-03-08 17:31:19,107 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 14ms)
+2020-03-08 17:31:19,118 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2020-03-08 17:31:19,122 [6] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2020-03-08 17:47:28,103 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2020-03-08 17:47:28,198 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 91ms)
+2020-03-08 17:47:28,203 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-03-08 17:47:28,292 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 89ms)
+2020-03-08 17:47:28,306 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-03-08 17:47:28,310 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2020-03-08 17:47:28,311 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-03-08 17:47:28,314 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 1 (took 3ms)
+2020-03-08 17:47:28,314 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-03-08 17:47:28,318 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 3ms)
+2020-03-08 17:47:28,319 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-03-08 17:47:28,324 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2020-03-08 17:47:28,325 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-03-08 17:47:28,328 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2020-03-08 17:47:28,479 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2020-03-08 17:47:28,643 [6] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2020-03-08 17:47:28,650 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2020-03-08 17:47:28,657 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 6ms)
+2020-03-08 17:47:28,695 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 17:47:28,711 [6] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 15ms)
+2020-03-08 17:47:34,132 [6] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2020-03-08 17:47:37,064 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-03-08 17:47:37,068 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 3ms)
+2020-03-08 17:47:40,300 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.IDataType
+2020-03-08 17:47:40,327 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 27ms)
+2020-03-08 17:47:40,331 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ITree
+2020-03-08 17:47:40,345 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 13ms)
+2020-03-08 17:47:40,358 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2020-03-08 17:47:40,362 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2020-03-08 17:47:58,393 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-03-08 17:47:58,397 [6] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 4ms)

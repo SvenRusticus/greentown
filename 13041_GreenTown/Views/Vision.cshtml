@@ -1,0 +1,56 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+<div class="visionPage">
+<div class="content">
+
+    
+    <h2>@Umbraco.Field("title")</h2>
+	
+	<div class="innerVisionPage">
+		<div class="leftContent">
+		@Umbraco.Field("leftContent")
+		</div>
+		<div class="rightContent">
+		@Umbraco.Field("rightContent")
+		</div>
+		
+		<div class="clear"></div>	
+			<br><Br>
+	<h3>@umbraco.library.GetDictionaryItem("JobsinGreenTown")</h3>		
+		@Umbraco.Field("jobsContent")	
+	</div>
+		
+</div>	
+			
+			
+<div class="jobPage">
+	<div class="innerJobPage">
+		<h2>@umbraco.library.GetDictionaryItem("Economicactivities")</h2><br><br><br>
+@Umbraco.RenderMacro("JobsGallery", new {mediaId="1201" })
+		
+		<div class="clear"></div>
+	</div>
+		
+</div>	
+			
+<div class="comparisonPage">
+	<div class="innerComparisonPage">
+		<h2>@umbraco.library.GetDictionaryItem("Comparison")</h2><br><br><br>
+		@Umbraco.Field("comparisonContent")	
+	</div>
+		
+</div>		
+		
+<div class="greenprinciplesPage">
+	<div class="innerGreenprinciplesPage">
+		<h2>@umbraco.library.GetDictionaryItem("GreenPrinciples")</h2><br><br><br>
+		@Umbraco.Field("greenprinciplesContent")	
+	</div>
+		
+</div>		
+				
+			
+			
+			

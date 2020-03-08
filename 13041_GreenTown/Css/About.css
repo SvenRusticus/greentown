@@ -1,0 +1,51 @@
+﻿/* AboutPage
+==================================================*/
+.aboutPage{width:100%;
+	height:auto;
+	
+	background-image:url("/Content/Images/contactBG.jpg");
+	background-repeat:repeat-x;
+	background-color:#fff;	
+	padding-top:45px;
+    
+}
+
+.aboutPage H2{font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300; 
+font-size:55px;
+color:#004d95;}
+
+.innerAboutPage{height: auto; width: 980px;padding-top:52px;  padding-bottom:52px;color:#004d95;}
+
+.innerAboutPage h3{color:#004d95;}
+
+.innerAboutPage .standardContent{ width: 550px;color: #004d95;line-height: 24px; }
+
+.colum{ width: 300px;float: left;padding-right: 20px;line-height: 24px;}
+.colum h3{line-height: 35px;}
+
+
+#memberlist {
+    width:100%;
+	height:auto;
+	background-image:url("/Content/Images/contactBG.jpg");
+	background-repeat:repeat-x;
+	background-color:#fff;	
+	padding-top:45px;
+}
+
+.innerMemberlist{height: 1075px; width: 980px;  margin-bottom:52px;color:#004d95;margin: 0 auto;}
+
+#partners {
+    width:100%;
+	height:auto;
+	background-image:url("/Content/Images/contactBG.jpg");
+	background-repeat:repeat-x;
+	background-color:#fff;	
+	padding-top:45px;
+    padding-bottom: 45px;
+}
+
+.innerPartners{height: auto; width: 980px;  color:#004d95;margin: 0 auto;}
+.innerPartners img{ margin-right: 10px;margin-bottom: 10px;}
+

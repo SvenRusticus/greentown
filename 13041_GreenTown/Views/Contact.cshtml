@@ -1,0 +1,35 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+	var contact = new MVCUmbraco.Models.Contact();
+}
+
+<div class="contactPage">
+<div class="content">
+
+    
+            <h2>@Umbraco.Field("title")</h2>
+	
+	<div class="innerContact">
+		<div class="adressDetails">
+			@Umbraco.Field("bodyText")
+		</div>
+			<div class="contactForm" >
+				<h3>@umbraco.library.GetDictionaryItem("Contact")</h3>
+				<br/><br/>
+				<div id="target">
+            @Html.Partial("ContactForm", contact)
+				</div>
+			</div>
+		
+				<div class="socialBox">
+					<h3>@umbraco.library.GetDictionaryItem("StayUptoDate")</h3>
+					<a href="#"><img src="@Url.Content("~/Content/Images/twIcon.png")" alt="Twitter"></a>
+					<a href="#"><img src="@Url.Content("~/Content/Images/ytIcon.png")" alt="Youtube"></a>
+					<a href="#"><img src="@Url.Content("~/Content/Images/fbIcon.png")" alt="Facebook"></a>
+					</div>
+			<div class="clear"></div>	
+			</div>
+			<div class="clear"></div>	
+		</div>
+		</div>

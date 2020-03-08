@@ -1,0 +1,14 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+		var parent = Model.Content.AncestorOrSelf(2);  
+}
+
+<div class="newsItem">
+<div class="content innernewsItem">
+@Umbraco.Field("pageName")
+
+@Umbraco.Field("bodyText")
+
+	</div>
+</div>

@@ -1,0 +1,98 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+	var pagesToList = Model.Children.Where("Visible");
+			
+	var itemsPerPage = String.IsNullOrEmpty(Parameter.noPerPage) ? 5 : int.Parse(Parameter.noPerPage);
+	
+	
+		
+	var numberOfItems = pagesToList.Count();
+    int currentPage = 1;
+
+    if (!int.TryParse(HttpContext.Current.Request.QueryString["Page"], out currentPage))
+    {
+        currentPage = 1;
+    }
+
+    currentPage--;
+	
+	var numberOfPages = Math.Ceiling((decimal)numberOfItems / (decimal)itemsPerPage);
+}	
+	
+@foreach (var itemGroup in pagesToList.Skip(currentPage*itemsPerPage).OrderBy("CreateDate desc").Take(itemsPerPage).InGroupsOf(10)){
+    <div id="publicationList">
+        <div class="publicationItem">
+           @foreach (var newsItem in itemGroup)
+            {
+               
+			
+                <article class="item">
+					@{var selectedMedia3 = Library.MediaById(newsItem.publicationImage);	}	
+					
+				
+					@if (selectedMedia3 != null){
+						
+					<div class="newsImage">
+      					<img src="/imagegen.ashx?height=320&width=320&Crop=Resize&Align=center&image=@selectedMedia3.umbracoFile" alt="@selectedMedia3.Name"/>                   
+						
+						@{var mediaPdf = Library.MediaById(newsItem.publicationPDF);
+						<a href="@mediaPdf.umbracoFile" class="downloadPublication" target="_blank">@umbraco.library.GetDictionaryItem("ViewReport")</a>
+						}
+						
+					</div>						
+					}					
+					
+					<div class="NewsContent">                    	
+						<h3>@newsItem.Name</h3>
+                    	<p>@newsItem.bodyText</p>
+						
+					</div>
+                </article>  
+				<div class="clear"></div>
+            }
+        </div>
+			
+    </div>
+			<div class="clear"></div>
+}
+@*
+<ul id="paging" class="group">
+    @{
+        <li>
+            @if (currentPage > 0)
+            {
+                <a href="?page=@(currentPage)">&laquo; Previous</a>
+            }
+            else
+            {
+                <span class="pagingDisabled">&laquo; Previous</span>
+            }
+        </li>
+
+        
+        //Create a variable 'pages' that stores from 1 to the numberOfPages variable
+        var pages = Enumerable.Range(1, (int)numberOfPages);
+        
+        //Loop through the numbers in the Pages variable
+        foreach (var number in pages)
+        {
+            <li>
+                @if (number - 1 != currentPage){<a href="?page=@number">@number</a>}
+				else{<span>@number</span>}
+            </li>
+        }
+
+        //NEXT Link
+        <li>
+            @if (currentPage < pages.Count() - 1)
+            {
+                <a href="?page=@(currentPage + 2)">Next &raquo;</a>
+            }
+            else
+            {
+                <span class="pagingDisabled">Next &raquo;</span>
+            }
+        </li>
+    }
+</ul>*@

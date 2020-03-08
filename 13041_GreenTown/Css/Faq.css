@@ -1,0 +1,96 @@
+.faqPage{width:100%;
+	height:auto;
+	min-height:448px;
+		background-image:url("/Content/Images/BlueBG.jpg");
+    background-repeat: repeat-x;
+	padding-top:45px;}
+
+.faqPage H2{font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200; 
+font-size:55px;
+color:#004d95;}
+
+#faqList { width:980px;position:relative; padding-bottom:48px; padding-top:48px;}
+    #faqList span { 
+     width:auto;
+     height:auto;
+     display:block;
+ 
+     padding:10px 30px;
+        
+ 
+     background-image:url(/Content/Images/faqPlus.png);
+     background-repeat:no-repeat;
+     background-position:left 15px;
+ 	 font-family: 'Source Sans Pro', sans-serif;
+	 font-weight: 400; 
+     font-size:22px;
+
+     color:#004d95;
+ 
+     cursor:pointer; 
+    }
+
+
+        #faqList span:hover { 
+        background-image:url(/Content/Images/faqPlusHover.png);
+     background-repeat:no-repeat;
+     background-position:left 15px;
+        
+        }
+
+
+
+
+        #faqList span.active { 
+    background-image:url(/Content/Images/faqMin.png);
+    background-repeat:no-repeat;
+    background-position:left 15px;
+        }
+
+
+        #faqList span.active:hover { 
+    background-image:url(/Content/Images/faqMinHover.png);
+    background-repeat:no-repeat;
+    background-position:left 15px;
+        }
+
+
+
+
+    #faqList div   { 
+	margin-left:30px;
+	margin-top:0px;
+     padding:10px 10px;
+     position:relative; 
+     margin-bottom:1px;
+     font-family:Verdana;
+     font-size:12px;
+     line-height:25px;
+     color:#004d95;
+	background-color:#a1dae6;
+    }
+    #faqList div p { 
+     padding:0;
+    }
+    #faqList div ul { 
+     padding:0;
+     margin:0;
+     padding-left:15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

@@ -1,0 +1,59 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+@Html.Partial("HomepageSlider", @Model.Content)
+
+<div class="TagLine">
+	<div class="content innerTagline">
+		<h1>@Umbraco.Field("tagLine")</h1>
+		<div class="LikeBtn">
+		<a href="https://www.facebook.com/GreenTownCuracao" target="_blank"><img src="@Url.Content("~/Content/Images/likeBtn.png")" alt=""/></a><br/>
+			@umbraco.library.GetDictionaryItem("likeBtn")
+		</div>
+		
+<div class="videoLeft"><a href="https://vimeo.com/22445157" target="_blank"><img src="@Url.Content("~/Content/Images/playMovie.jpg")"/></a></div>
+	<div class="seoContent">
+		@Umbraco.Field("seoContent")
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+		
+<div class="Publications">
+    <div class="content innerPublications">	
+        <h1>@umbraco.library.GetDictionaryItem("Publications")</h1>
+		<div class="publicationItem">
+			<a href="/publications/" class="moreBtn"><span>@umbraco.library.GetDictionaryItem("MorePublications")</span></a>
+			
+        @Umbraco.RenderMacro("PublicationsPartial")
+		</div>
+    </div>
+</div>
+				
+<div class="Members">
+    <div class="content innerMembers">	
+        <h1>@Umbraco.Field("team")</h1>
+		<div class="membersHome">
+		<a href="/about-us/#memberlist" class="moreBtn"><span>@umbraco.library.GetDictionaryItem("Allmembers")</span></a>
+        @Umbraco.RenderMacro("MemberInGroup")	
+			 <div class="clear"></div>
+			</div>
+    </div>
+</div>
+		
+<div class="News">	
+	<div class="content innerNews">
+	    <h2>@Umbraco.Field("newsTitel")</h2>
+		<div class="newsPartial">
+			<a href="/news/" class="moreBtn"><span>@umbraco.library.GetDictionaryItem("MoreNews")</span></a>
+		@Umbraco.RenderMacro("NewsPartial")
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>		
+
+@*
+<div class="content">
+@Umbraco.Field("bodyText")
+</div>*@

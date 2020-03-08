@@ -1,0 +1,43 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+  dynamic newsListingNode = Model.AncestorOrSelf(1).DescendantsOrSelf("NewsArea").First();
+}
+
+@{ var firstItem = newsListingNode.Children.OrderBy("newsDate desc, CreateDate desc").First();
+		var newsCopy = firstItem.Summary;
+		newsCopy = Library.StripHtml(newsCopy);
+		newsCopy = Library.Truncate(newsCopy, 250, true);
+ }
+		<article class="itemHome">
+			<div class="itemLeft">
+			<span class="itemSource">@firstItem.newsSource, </span><span class="itemDate">@firstItem.newsDate.ToString("dd MMMM yyyy")</span>
+				<h3><a href="@firstItem.Url">@firstItem.Name</a></h3>				
+				<p>@newsCopy</p>
+			</div>
+				
+				
+				@{var selectedMedia3 = Library.MediaById(firstItem.newsImage);	}							
+					@if (selectedMedia3 != null){
+						
+					<div class="newsImage">
+      					<a href="@firstItem.Url"><img src="/imagegen.ashx?image=@selectedMedia3.umbracoFile&Crop=resize&width=320&height=240&align=center&valign=center" alt="@selectedMedia3.Name"/></a>                       
+					</div>						
+					}	
+				
+				
+			
+		</article>    
+
+  <ul class="newsListHome">
+    @foreach (var item in newsListingNode.Children.OrderBy("newsDate desc, CreateDate desc").Skip(1).Take(5))
+    {
+		var newsTrim = item.Name;
+		newsTrim = Library.StripHtml(newsTrim);
+		newsTrim = Library.Truncate(newsTrim, 30, true);
+
+        <li><span class="itemDate">@item.newsDate.ToString("dd-MM-yyyy")</span><a href="@item.Url">@newsTrim</a></li>
+			
+			
+    }
+  </ul>

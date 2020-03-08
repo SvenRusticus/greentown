@@ -1,0 +1,40 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    Layout = "Master.cshtml";
+}
+<div class="aboutPage">
+<div class="content">
+
+    
+    <h2>@Umbraco.Field("title")</h2>
+	
+	<div class="innerAboutPage">
+		<div class="colum">
+		@Umbraco.Field("colum")
+		</div>
+		<div class="colum">
+		@Umbraco.Field("colum1")
+		</div>
+		<div class="colum">
+		@Umbraco.Field("colum2")
+		</div>
+			<div class="clear"></div>
+	</div>
+		
+</div>		
+	<div id="memberlist">
+	<div class="innerMemberlist">
+	 <h2>GreenTown Curaçao Team</h2><br><br>
+	@Umbraco.RenderMacro("MemberList")	
+				</div>
+	</div>
+	<div class="clear"></div>
+		
+		
+<div id="partners">
+	<div class="innerPartners">
+		<h2>Partners</h2><br><br>
+@Umbraco.RenderMacro("GallerySimple", new {mediaId="1177" })
+	</div>
+</div>		

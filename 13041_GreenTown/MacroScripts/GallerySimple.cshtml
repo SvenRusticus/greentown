@@ -1,0 +1,30 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@*
+Macro Parameters To Create, for this macro to work:
+Show:True   Alias:mediaId     Name:Media Folder ID    Type:MediaCurrent
+*@
+
+
+@if (Parameter.mediaId != null)
+{
+     @* Get the media folder as a dynamic node *@
+    var param = Parameter.mediaId;
+	var mediaFolder = Model.MediaById(param);
+
+    if (mediaFolder.Children.Any())
+    {
+       
+            @* for each item in children of the selected media folder *@
+            foreach (var mediaItem in mediaFolder.Children)
+            {
+                <img src="@mediaItem.umbracoFile" alt="@mediaItem.Name" />
+            }
+       
+    }else
+    {
+            
+    }
+
+ 
+}

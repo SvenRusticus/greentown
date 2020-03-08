@@ -1,0 +1,92 @@
+﻿@*
+
+NivoSlider for Umbraco - version 0.6 (30/05/2013)
+Author: Icemedia
+*@
+
+@using umbraco.MacroEngines
+
+<link href="/css/nivo-slider.css" rel="stylesheet" type="text/css" />
+<link href="/css/themes/default/default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/scripts/jquery.nivo.slider.pack.js"></script>
+@{var nodes = @Model.MediaById(Parameter.nivoFolder);
+    
+
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#@nodes.Name').nivoSlider({   
+          
+          boxCols:@(String.IsNullOrEmpty(Parameter.nivoBoxCols) ? "8" : Parameter.nivoBoxCols),
+          rowCols:@(String.IsNullOrEmpty(Parameter.nivoRowCols) ? "4" : Parameter.nivoRowCols),
+          animSpeed:@(String.IsNullOrEmpty(Parameter.nivoAnimSpeed) ? "500" : @Parameter.nivoAnimSpeed), 
+          pauseTime:@(String.IsNullOrEmpty(Parameter.nivoPauseTime) ? "3000": @Parameter.nivoPauseTime),
+          startSlide:@(String.IsNullOrEmpty(Parameter.nivoStartSlide) ? "0" : @Parameter.nivoStartSlide),                     
+          directionNav:@(String.IsNullOrEmpty(Parameter.nivoDirectionNav) ? "false" : (Parameter.nivoDirectionNav=="1" ? "true" : "false")), 
+          directionNavHide:@(String.IsNullOrEmpty(Parameter.nivoDirectionNavHide) ? "false" : (Parameter.nivoDirectionNavHide=="1" ? "true" : "false")),
+          controlNav:@(String.IsNullOrEmpty(Parameter.nivoControlNav) ? "false" : (Parameter.nivoControlNav=="1" ? "true" : "false")),                                        
+          keyboardNav:@(String.IsNullOrEmpty(Parameter.nivoKeyboardNav) ? "false" : (Parameter.nivoKeyboardNav=="1" ? "true" : "false")), 
+          pauseOnHover:@(String.IsNullOrEmpty(Parameter.nivoPauseOnHover) ? "false" : (Parameter.nivoPauseOnHover=="1" ? "true" : "false")), 
+          manualAdvance:@(String.IsNullOrEmpty(Parameter.nivoManualAdvance) ? "false" : (Parameter.nivoManualAdvance=="1" ? "true" : "false")),
+          captionOpacity:@(String.IsNullOrEmpty(Parameter.nivoCaptionOpacity) ? "0.8" : @Parameter.nivoCaptionOpacity),
+          prevText:@(String.IsNullOrEmpty(Parameter.nivoPrevText) ? @Html.Raw("'Prev'") : @Html.Raw(String.Concat("'", Parameter.nivoPrevText, "'"))),
+          nextText:@(String.IsNullOrEmpty(Parameter.nivoNextText) ? @Html.Raw("'Next'") : @Html.Raw(String.Concat("'", Parameter.nivoNextText, "'")))
+        });
+    });			
+</script>
+       
+        <div id="@nodes.Name" class="nivoSlider">
+        
+            @foreach (dynamic img in nodes.Children)
+            {
+                if (img.NodeTypeAlias != "NivoSliderImage")
+                {
+                    continue;
+                }
+                                
+                System.Text.StringBuilder htmlNode = new System.Text.StringBuilder();
+                
+                if (img.HasValue("nivoSliderUrl"))
+                {
+                    dynamic destNode = new DynamicNode(img.nivoSliderUrl);
+                    htmlNode.Append("<a href=\""+destNode.NiceUrl+"\">");                    
+                }
+                
+                htmlNode.Append("<img src=\""+img.umbracoFile+"\" alt=\""+img.Name+"\"");
+                
+                if (img.HasValue("nivoSliderCaption"))
+                {
+                    htmlNode.Append(" title=\"#"+img.Name+"\"");                                   
+                }
+				
+				if (img.HasValue("nivoSliderEffect"))
+		        {
+		            htmlNode.Append(" data-transition=\""+img.nivoSliderEffect+"\"");       
+		        }
+	
+                
+                htmlNode.Append("/>");
+                
+                if (img.HasValue("nivoSliderUrl"))
+                {
+                    htmlNode.Append("</a>");
+                }
+
+                htmlNode.AppendLine();
+                @Html.Raw(htmlNode.ToString());                
+            }
+                       
+        </div>
+        
+    foreach (dynamic img in nodes.Children)
+    {
+        if (img.HasValue("nivoSliderCaption"))
+        {
+            <div id="@img.Name" class="nivo-html-caption">
+				<div class=" @img.captionBG">
+                 @Html.Raw(img.nivoSliderCaption)
+				</div >
+				<div class="@img.backgroundType"></div>
+            </div>                          
+        }
+    }
+}

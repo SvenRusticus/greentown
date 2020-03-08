@@ -1,0 +1,92 @@
+/* VisionPage
+==================================================*/
+.visionPage{width:100%;
+	height:auto;
+	
+	background-image:url("/Content/Images/contactBG.jpg");
+	background-repeat:repeat-x;
+	background-color:#fff;	
+	padding-top:45px;
+}
+
+.visionPage H2{font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300; 
+font-size:55px;
+color:#004d95;}
+
+.innerVisionPage{height: auto; width: 980px;padding-top:52px;  padding-bottom:52px;color:#004d95;}
+
+.innerVisionPage h3{color:#004d95;}
+
+.innerVisionPage .leftContent{ width: 400px;color: #004d95;line-height: 24px;float: left;padding-right: 90px; }
+.innerVisionPage .rightContent{ width: 490px;color: #004d95;line-height: 24px;float: left; }
+.innerVisionPage .rightContent ol {
+    list-style-position: inside;
+    list-style-type: decimal;
+     color:#fff;
+    margin: 0;padding: 0;
+    margin-bottom: 25px;
+}
+.innerVisionPage .rightContent ol li {
+
+    background-image: url('/Content/Images/olbg.png');
+    background-position: 0px;
+    background-repeat: no-repeat;
+    padding-left: 7px;
+    color:#fff;
+}
+
+.innerVisionPage .rightContent ol { 
+    counter-reset: item;
+    list-style-type: none;
+}
+
+.innerVisionPage .rightContent ol li:before { 
+    content: counter(item) "  "; 
+    counter-increment: item 
+}
+
+.innerVisionPage .rightContent ol li span{ color: #004d95;margin-left: 8px;}
+
+
+.jobPage {
+    width:100%;
+	height:auto;
+	background-image:url("/Content/Images/contactBG.jpg");
+	background-repeat:repeat-x;
+	background-color:#fff;	
+	padding-top:45px;
+    padding-bottom: 45px;
+}
+
+.innerJobPage{height: auto; width: 980px;  color:#004d95;margin: 0 auto;}
+
+.Job{ width: 310px;height:276px;line-height: 24px;float: left;margin-right: 12px;}
+.Job h3{ margin-bottom: 10px;}
+.Job img{margin-bottom: 5px;}
+
+.comparisonPage {
+    width:100%;
+	height:auto;
+	background-image:url("/Content/Images/contactBG.jpg");
+	background-repeat:repeat-x;
+	background-color:#fff;	
+	padding-top:45px;
+    padding-bottom:45px;
+   
+}
+
+.innerComparisonPage{height: auto; width: 980px;  color:#004d95;margin: 0 auto;}
+
+
+.greenprinciplesPage{ width:100%;
+	height:auto;
+	background-image:url("/Content/Images/contactBG.jpg");
+	background-repeat:repeat-x;
+	background-color:#fff;	
+	padding-top:45px;
+    padding-bottom:45px;}
+
+.innerGreenprinciplesPage{height: auto; width: 980px;  color:#004d95;margin: 0 auto;}
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

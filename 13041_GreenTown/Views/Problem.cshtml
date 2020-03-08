@@ -1,0 +1,24 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+<div class="problemPage">
+<div class="content">
+
+    
+            <h2>@Umbraco.Field("title")</h2>
+	
+	<div class="innerProblemPage">
+		<div class="problemContent">
+		@Umbraco.Field("bodyText")
+		</div>
+			
+			
+			
+			
+			
+	@Umbraco.RenderMacro("Gallery", new {mediaId="1190" })			
+			
+	</div>
+</div>
+</div>		

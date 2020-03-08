@@ -1,0 +1,29 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@if (Parameter.mediaId != null)
+{
+     @* Get the media folder as a dynamic node *@
+    var param = Parameter.mediaId;
+	var mediaFolder = Model.MediaById(param);
+
+    if (mediaFolder.Children.Any())
+    {
+      
+            @* for each item in children of the selected media folder *@
+            foreach (var mediaItem in mediaFolder.Children)
+				
+            {	
+				 <div class="Job">
+				<h3>@mediaItem.jobTitle</h3>
+                <img src="@mediaItem.umbracoFile" alt="@mediaItem.Name" />
+				@mediaItem.jobDescription
+					 </div>
+            }
+      
+    }else
+    {
+            
+    }
+
+ 
+}

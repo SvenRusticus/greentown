@@ -1,0 +1,30 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
+	
+	@{
+   Layout = null;
+   var parent = Model.AncestorOrSelf(1);  
+}
+<ul>
+    <li><a class="@(Model.Name == parent.Name ? "active" : "")" href="@parent.Url()">@parent.Name</a></li>
+    @foreach(var page in parent.Children.Where(x => x.IsVisible()))
+    {
+        if (page.DocumentTypeAlias == "ExternalLink")
+        {
+        <li><a href="@page.GetPropertyValue("link")" target="@page.GetPropertyValue("linkTarget")">@page.GetPropertyValue("linkName")</a></li>
+        }
+        else
+        {
+            <li><a class="@(Model.Name == page.Name ? "active" : "")" href="@page.Url()">@page.Name</a>
+                @*@if (page.Children.Where("Visible").Any())
+                {
+                    <ul>
+                        @foreach (var subpage in page.Children.Where("Visible"))
+                        {
+                            <li><a class="@(Model.Name == subpage.Name ? "active" : "")" href="@subpage.Url">@subpage.Name</a></li>
+                        }
+                    </ul>
+                }*@
+            </li>
+        }
+    }
+</ul>

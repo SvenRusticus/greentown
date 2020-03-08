@@ -1,0 +1,40 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<MVCUmbraco.Models.Contact>
+<div id="status"></div>
+@using (Ajax.BeginForm("SendMail", "Contact", new AjaxOptions { HttpMethod = "POST", 
+    InsertionMode = InsertionMode.Replace, UpdateTargetId = "target", 
+    OnFailure = "ShowError()", OnSuccess = "ShowSuccess()" }))
+{
+     
+    <fieldset>
+        <legend>
+ 
+        @umbraco.library.GetDictionaryItem("ContactName")<br/>
+		@Html.EditorFor(model => model.Name)<br/> 
+		@Html.ValidationMessageFor(model => model.Name)
+<br/>
+        @umbraco.library.GetDictionaryItem("ContactEmail")<br/>
+        @Html.EditorFor(model => model.Email)<br/>
+		@Html.ValidationMessageFor(model => model.Email)
+<br/>
+       
+        @umbraco.library.GetDictionaryItem("ContactMessage")<br/>
+        @Html.TextAreaFor(model => model.Message)<br/>
+		@Html.ValidationMessageFor(model => model.Message)<br />
+ 
+        <input type="submit" class="Submitbtn btn-primary" value="Submit">
+			<div class="clear"></div>
+    </fieldset>
+}
+ 
+<script>
+    function ShowError() {
+        $("#status").removeClass();
+        $("#status").addClass("alert alert-error");
+        $("#status").html("<strong>Error!</strong> There was an error posting the contact form. Please try again later.");
+    }
+ 
+    function ShowSuccess() {
+        $("#target").removeClass();
+        $("#target").addClass("alert alert-success");
+    }
+</script>

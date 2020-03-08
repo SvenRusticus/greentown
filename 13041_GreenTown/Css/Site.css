@@ -1,0 +1,261 @@
+/* 
+*
+*   Created by
+*   Concept, UX design and development by Icemedia, Amsterdam
+*   Icemedia: brand activation * word of mouth
+*   http://www.icemedia.com - +31 (0)20 416 0317 - info@icemedia.com
+*
+*   Jaar		: 2013
+*   Klant     	: GreenTown Curacao
+*   Product		: Website
+*   Author    	: Icemedia.nl
+===================================================*/
+
+
+/* Css Imports
+================================================== */
+
+@import url("Reset.css");
+@import url("Menu.css");
+@import url("Faq.css");
+@import url("News.css");
+@import url("Publications.css");
+@import url("Contact.css");
+@import url("Vision.css");
+@import url("About.css");
+
+
+/* Fonts
+================================================== */
+
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600);
+
+/* Algemeen
+==================================================*/
+html {
+    overflow-y: scroll;
+}
+body {
+    font-size: .85em;
+    font-family: "Arial";
+    color: #232323;
+    background-color: #fff;
+    padding:0;
+    margin:0;
+    min-width:1000px
+}
+.clear{ clear: both;}
+
+strong{font-weight:bold;}
+
+#wrapper{ width: 100%;height: auto;margin: 0 auto;padding:0;}
+
+.content{width:980px;margin:0 auto; padding:0px 10px;}
+
+
+/* Header
+==================================================*/
+#header{
+ height:159px;
+ width:100%;
+ background-image:url("/Content/Images/headerBG.png");
+ position:relative;
+ background-repeat: repeat-x;
+ z-index:999;
+ margin-bottom:-9px;
+}
+
+.innerheader{ 
+	width:980px;
+	height:150px;
+	padding:0px 0px;
+	margin:0 auto;	
+	position:relative;
+}
+
+
+.logo{padding-top:6px;}
+
+
+
+/* Tagline
+==================================================*/
+.TagLine{
+	width:100%;
+	height:477px;
+	background-image:url("/Content/Images/BlueBG.jpg");
+    background-repeat: repeat-x;
+    position: relative;
+	
+}
+
+.innerTagline{
+padding-top:71px;
+position: relative;
+   
+}
+.innerTagline h1{
+ color: #004d95; text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200; 
+	font-size:55px;
+}
+
+.LikeBtn{ position: absolute;right: 10px;  top:85px;text-align: right;
+    font-size: 16px;
+    color: #004d95;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+.LikeBtn img{ margin-bottom: 7px;}
+
+.videoLeft{ float: left;margin-top: 64px;margin-right: 20px;}
+.seoContent{ float: left; margin-top: 64px; width: 600px;font-family: Arial;font-size: 14px;color: #004d95;line-height: 28px;}
+
+
+
+/* Donate
+==================================================*/
+.donatePage{width:100%;
+	height:auto;
+	min-height:600px;
+	background-color:#004d95;	
+	padding-top:45px;}
+
+.donatePage h1{
+color:#fff;
+}
+
+.innerdonatePage{color:#fff; font-size:16px; line-height:26px; position:relative;}
+
+.innerdonatePage ul{
+	padding-left:10px;
+	list-style:inherit;
+	margin-left:10px;
+}
+
+.donatePage .standardContent{width:460px; float:left;}
+.donatePage .extraContent{ width:420px; padding:20px; background-color:#8fd1df; color:#004d95;  float:right; margin-top:60px; }
+
+
+
+
+/* Member Homepage
+==================================================*/
+
+.Members{ width:100%; background-color:#eff6f7; height:373px; padding-top:0px;}
+.innerMembers{ padding:35px 10px; }
+.innerMembers h1{color:#004d95; margin-bottom:0px;}
+
+.membersHome{padding-top: 40px;margin-left: 0px;position: relative;height: auto;}
+.memberlist{}
+.member{ float:left; margin-right:40px;width: 120px; line-height: 20px;}
+.member b{ font-weight: bold;font-size: 18px; font-family: 'Source Sans Pro', sans-serif;}
+.member img{ border-bottom:6px solid #8fd1df;margin-bottom: 10px; }
+
+
+
+/* Footer
+==================================================*/
+#footer{
+	height:90px;
+	width:100%;
+	background-image:url("/Content/Images/footerBG.png");
+	
+}
+
+.innerfooter{
+	width:980px;
+	height:90px;
+	line-height:90px;
+	padding:0px 0px;
+	margin:0 auto;	
+	color:#004d95;
+	font-size:18px;
+	position:relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.innerfooter a{
+	color:#8fd1df;
+		
+}
+
+.developedby{
+ position:absolute;
+ right:0px;
+ top:0px;
+    vertical-align: middle;
+}	
+.developedby a img{vertical-align: middle;}
+
+/* ProblemPage
+==================================================*/
+.problemPage{width:100%;
+	height:auto;
+	
+	background-image:url("/Content/Images/contactBG.jpg");
+	background-repeat:repeat-x;
+	background-color:#fff;	
+	padding-top:45px;}
+
+.problemPage H2{font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300; 
+font-size:55px;
+color:#004d95;}
+
+.innerProblemPage{ height: 803px;width: 980px;padding-top:52px; color:#004d95;}
+
+.innerProblemPage h3{color:#004d95;}
+
+.innerProblemPage .problemContent{ width: 550px;color: #004d95;line-height: 24px; }
+
+
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #ff0000;
+    display: block;
+}
+ 
+.field-validation-valid {
+    display: none;
+}
+ 
+.input-validation-error {
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+ 
+.validation-summary-errors {
+    font-weight: bold;
+    color: #ff0000;
+     padding-bottom: 10px;
+   
+}
+ 
+.validation-summary-valid {
+    display: none;
+}
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+H1 {
+font-family: 'Source Sans Pro', sans-serif; 	font-weight: 200;  font-size:55px; 
+}
+
+H3 {
+font-family: 'Source Sans Pro', sans-serif; 	font-weight: 400;  font-size:30px; 
+}
+
+H2 {
+font-family: 'Source Sans Pro', sans-serif; 	font-weight: 200;  font-size:55px; 
+}
+

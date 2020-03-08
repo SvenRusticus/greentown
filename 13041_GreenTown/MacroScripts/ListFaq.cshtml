@@ -1,0 +1,34 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+    var pagesToList = @Model.Children.Where("Visible");
+    
+    <div id="faqList">
+     
+            @foreach (var faqItem in pagesToList)
+            {
+                var faqCopy = faqItem.Awnser;
+                faqCopy = Library.StripHtml(faqCopy);
+                @*faqCopy = Library.Truncate(faqCopy, 50, false);*@
+            
+                <article class="FaqItem">
+                    <span>@faqItem.question</span>
+                    <div>@faqCopy</div>
+                </article>           
+            }
+     
+    </div>
+}
+
+<script type="text/javascript">
+        $(document).ready(function() {
+            $('#faqList span').each(function() {
+                var tis = $(this), state = false, answer = tis.next('div').hide().fadeOut('fast');
+                tis.click(function() {
+                    state = !state;
+                    answer.fadeToggle(state);
+                    tis.toggleClass('active', state);
+                });
+            });
+        });
+</script>

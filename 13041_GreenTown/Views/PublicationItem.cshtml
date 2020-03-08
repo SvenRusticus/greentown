@@ -1,0 +1,43 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+	var parent = Model.Content.AncestorOrSelf(2);  
+}
+
+<div class="newsItem">
+<div class="content innernewsItem">
+	
+	
+	 <article class="itemLong">
+		 
+@{
+    if(Model.Content.HasValue("newsImage"))
+	{
+		var mediaItem = Umbraco.TypedMedia(Model.Content.GetPropertyValue("newsImage")); 
+	<div class="newsImage">
+      <img src="/imagegen.ashx?height=240&width=320&Crop=Resize&Align=center&image=@mediaItem.GetPropertyValue("umbracoFile")" alt="@mediaItem.GetPropertyValue("Name")"/>   
+	</div>	
+    }   
+}	
+	     <div class="NewsContent">
+	         @{ 
+	             DateTime date;
+	             string datestring = string.Empty;
+	             if (DateTime.TryParse(Umbraco.Field("newsDate").ToString(), out date))
+	             {
+	                 datestring = date.ToString("dd MMMM yyyy");
+	             }
+	         }
+	         <span class="itemSource">@Umbraco.Field("newsSource"), </span> <span class="itemDate">@datestring</span>
+	         <br/>
+	         <h3>@Umbraco.Field("pageName")</h3>
+	         <p>@Umbraco.Field("bodyText")</p>
+	         <a href="@parent.Url()" class="backBtn">@umbraco.library.GetDictionaryItem("GoBack")</a>	
+	     </div>
+         <div class="clear"></div>
+      </article>  
+	
+
+
+	</div>
+</div>

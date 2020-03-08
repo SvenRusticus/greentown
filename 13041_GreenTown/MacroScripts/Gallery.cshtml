@@ -1,0 +1,64 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+<link rel="stylesheet" type="text/css" href="/Css/jquery.ad-gallery.css">
+<script type="text/javascript" src="/Scripts/jquery.ad-gallery.js"></script>
+ <script type="text/javascript">
+  $(function() {
+   
+  var galleries = $('.ad-gallery').adGallery({
+	   loader_image: 'progress.gif',
+	     width: false, 
+  // Height of the image, set to false and it 
+  // will read the CSS height
+  height: 551, 
+   effect: 'fade', 
+	    slideshow: {
+    		enable: false,
+		}
+	  });
+
+  
+  
+  });
+  </script>
+	  
+	  
+	  <div id="gallery" class="ad-gallery">
+      <div class="ad-image-wrapper">
+      </div>
+      <div class="ad-controls">
+      </div>
+      <div class="ad-nav">
+        <div class="ad-thumbs">
+          <ul class="ad-thumb-list">
+
+			  
+			  @if (Parameter.mediaId != null)
+{
+     @* Get the media folder as a dynamic node *@
+    var param = Parameter.mediaId;
+	var mediaFolder = Model.MediaById(param);
+
+    if (mediaFolder.Children.Any())
+    {
+       
+            @* for each item in children of the selected media folder *@
+            foreach (var mediaItem in mediaFolder.Children)
+            {
+            <li><a href="@mediaItem.umbracoFile" rel='gallery'><img src="@mediaItem.umbracoFile"></a></li>
+            }
+       
+    }else
+    {
+            
+    }
+
+ 
+}
+         
+          </ul>
+        </div>
+      </div>
+    </div>
+
+   </div>

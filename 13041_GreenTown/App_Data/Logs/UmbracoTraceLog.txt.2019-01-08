@@ -1,0 +1,42 @@
+2013-07-02 08:44:08,999 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-07-02 08:44:09,011 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 9ms)
+2013-07-02 08:44:09,017 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-07-02 08:44:09,381 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 363ms)
+2013-07-02 08:44:09,399 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-07-02 08:44:09,404 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2013-07-02 08:44:09,406 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-07-02 08:44:09,412 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 1 (took 6ms)
+2013-07-02 08:44:09,413 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-07-02 08:44:09,418 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 2 (took 5ms)
+2013-07-02 08:44:09,425 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-07-02 08:44:09,431 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2013-07-02 08:44:09,432 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-07-02 08:44:09,438 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2013-07-02 08:44:09,845 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-07-02 08:44:10,216 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-07-02 08:44:10,224 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-07-02 08:44:10,236 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 12ms)
+2013-07-02 08:44:10,263 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-07-02 08:44:10,292 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 28ms)
+2013-07-02 08:44:10,834 [9] INFO  umbraco.content - [Thread 5] Loading content from disk cache...
+2013-07-02 08:44:16,639 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2013-07-02 08:44:16,646 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 7ms)
+2013-07-02 08:44:20,229 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IDataType
+2013-07-02 08:44:20,255 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 25ms)
+2013-07-02 08:44:20,260 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
+2013-07-02 08:44:20,287 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 27ms)
+2013-07-02 08:44:20,321 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.MacroEngines.IRazorDataTypeModel
+2013-07-02 08:44:20,328 [9] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 6ms)
+2013-07-02 08:44:36,069 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-07-02 08:44:36,077 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2013-07-02 08:54:39,697 [9] INFO  umbraco.BasePages.BasePage - [Thread 28] User Greentown (Id: 0) logged in
+2013-07-02 08:54:42,726 [9] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-07-02 08:54:42,732 [9] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 6ms)
+2013-07-02 08:57:43,534 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'GreenTown 2013' with Id '1067' has been published.
+2013-07-02 08:57:43,622 [9] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-07-02 08:57:43,645 [9] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 21 (took 22ms)
+2013-07-02 08:57:43,770 [9] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 42] Error adding node 1047 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-07-02 08:58:37,409 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'GreenTown licht haar plannen toe' with Id '1070' has been published.

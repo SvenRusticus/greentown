@@ -1,0 +1,77 @@
+/* Contact
+==================================================*/
+.contactPage{width:100%;
+	height:auto;
+	
+	background-image:url("/Content/Images/contactBG.jpg");
+	background-repeat:repeat-x;
+	background-color:#fff;	
+	padding-top:45px;}
+
+.contactPage H2{font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300; 
+font-size:55px;
+color:#004d95;}
+
+.innerContact{ height: 300px;width: 980px;padding-top:52px; color:#004d95;}
+
+.innerContact h3{color:#004d95;}
+
+.adressDetails{ font-size: 16px;float: left;width: 320px;}
+
+.contactForm{font-size: 16px;float: left;width: 320px;padding-bottom: 30px;}
+
+.contactForm .text-box {
+     background: transparent  url("/Content/Images/textfield.png");
+    height: 46px;
+    width: 280px;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.contactForm textarea {
+    background: transparent url("/Content/Images/textarea.png")!important;
+    height: 84px;
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    max-height: 84px;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    font-family: arial;
+    padding-top: 10px;
+}
+
+.Submitbtn {
+     background-image: url("/Content/Images/submitBtn.png");
+      outline: none;
+    border: none;
+    cursor: pointer;
+    width: 116px;
+    height: 44px;
+    float: right;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400; 
+font-size:18px;
+color:#fff;
+}
+
+.socialBox{ float: right;
+    height: 102px;
+    width: 280px;
+    background-color: #8fd1df;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.socialBox h3{ color: #ffffff;padding-bottom: 40px;}
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

@@ -1,0 +1,31 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@using umbraco.cms.businesslogic.member
+  @{
+    var memberId= HttpContext.Current.Request.QueryString["id"];
+	  var members = MemberGroup.GetByName("ExecutiveBoard").GetMembers();
+      var memberPerPage = String.IsNullOrEmpty(Parameter.noPerPage) ? 6 : int.Parse(Parameter.noPerPage);
+      
+  }
+
+
+
+@foreach(var item in members.Take(6))
+  {
+	  
+  // <h1>@item.Text</h1>
+	//<span><a href="?id=@item.Id">@item.Email</a></span>
+      
+	  var media = Library.MediaById(item.getProperty("profileImage").Value.ToString());
+      var profilePic = item.getProperty("profileImage").Value.ToString();
+      
+     <div class="memberlist"> 
+	<div class="member">
+      <img src="@media.Url" alt="@item.Text" title="@item.Text"/>
+		
+		
+	</div>
+	
+    </div>
+     
+  }
+

@@ -1,0 +1,31 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+
+@{
+  dynamic newsListingNode = Model.AncestorOrSelf(1).DescendantsOrSelf("PublicationArea").First();
+}
+
+@foreach (var item in newsListingNode.Children.OrderBy("CreateDate desc").Take(1))
+   {
+       <article class="item">
+           
+           
+
+           @{var mediaImage = Library.MediaById(item.publicationImage);}
+           @if (mediaImage != null)           {
+						
+    <div class="newsImage">
+        <img src="/imagegen.ashx?height=320&width=320&Crop=Resize&Align=center&image=@mediaImage.Url" alt="@mediaImage.Name"/>                   
+			
+        @{var mediaPdf = Library.MediaById(item.publicationPDF);
+            <a href="@mediaPdf.umbracoFile" class="downloadPublication" target="_blank">@umbraco.library.GetDictionaryItem("ViewReport")</a>
+        }
+						
+    </div>						
+           }		
+           <div class="NewsContent">                    	
+		        <h3>@item.Name</h3>
+                <p>@item.bodyText</p>
+		   </div>
+	     
+       </article>           
+    }

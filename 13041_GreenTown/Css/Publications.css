@@ -1,0 +1,163 @@
+﻿/* Publications Overview
+==================================================*/
+.Publications{
+    width:100%;
+    height: auto;
+	background-color:#f3ce00;	
+	padding-top:35px;
+    padding-bottom: 5px;
+}
+
+.Publications h1{
+    color: #fff;
+}
+
+.publicationPage {
+    width:100%;
+	height:auto;
+	min-height:448px;
+	background-image:url("/Content/Images/BlueBG.jpg");
+    background-repeat: repeat-x;
+	padding-top:45px;
+}
+
+#publicationList {
+    padding-top:45px;
+    padding-bottom:15px;
+}
+
+.publicationPage H2{font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200; 
+font-size:55px;
+color:#004d95;}
+
+
+.publicationItem .item
+{
+    width:970px;
+    height:350px;
+    border-bottom:1px solid #e5f1f3;
+  margin-bottom:30px;
+}
+
+.publicationItem .item .newsImage
+{
+  height:340px;
+  width:345px;    
+  padding:0px 0px 0px 10px;
+  float:left;
+  background:url("/Content/Images/newsImgBG.png");
+  background-repeat:no-repeat;
+  background-position:left bottom;
+    position: relative;
+}
+
+.publicationItem .item .newsImage img
+{
+    height:320px;
+    width:320px;    
+}
+
+.publicationItem .NewsContent
+{
+    width:600px;
+    float:left;
+    color:#004d95;
+    font-size:14px;
+    line-height:24px;
+}
+
+.publicationItem .NewsContent .itemSource
+{
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400; 
+font-size:16px;
+color:#50a125;
+}
+
+.publicationItem .NewsContent .itemDate
+{
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 400; 
+font-size:16px;
+color:#50a125;
+}
+
+.publicationItem .NewsContent h3
+{  
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 400; 
+font-size:30px;
+color:#004d95;
+margin:10px 0px;
+}
+
+.publicationItem .downloadPublication {
+position: absolute;
+bottom: 20px;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 400; 
+font-size:16px;
+color:#fff;
+width:260px;
+height:38px;
+
+background:url(/Content/Images/downloadPdf2.png);
+display:block;
+text-decoration:none;
+    padding-top: 43px;
+    padding-left: 60px;
+}
+
+
+
+
+/* Only homepage */
+
+.Publications .innerPublications{ background-image: url("/Content/Images/elipse.png");}
+
+.Publications .publicationItem{ padding-top: 40px;margin-left: -5px;position: relative;}
+.Publications .publicationItem .item
+{
+    
+    width:970px;
+    height:330px;
+    border: none!important;
+
+}
+
+.Publications .publicationItem .NewsContent {
+    color: #004d95;
+}
+.Publications .publicationItem .NewsContent h3 {
+    color: #004d95;
+}
+
+.moreBtn {
+    color: #004d95;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600; 
+    font-size:16px;
+    text-decoration: none;
+    position: absolute;right: 0px;top: -46px;
+    background-image: url("/Content/Images/moreBtnB.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 19px;
+}
+
+.moreBtn span {
+    background-image: url("/Content/Images/moreBtnA.png");
+    width: auto;
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 15px;
+      padding-right: 10px;
+}
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

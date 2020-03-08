@@ -1,0 +1,91 @@
+﻿@inherits umbraco.MacroEngines.DynamicNodeContext
+@using umbraco.cms.businesslogic.member
+  @{
+      var memberId= HttpContext.Current.Request.QueryString["id"];
+	  var members = MemberGroup.GetByName("ExecutiveBoard").GetMembers();
+	  var members2 = MemberGroup.GetByName("AdvisaryBoard").GetMembers();
+	  var members3 = MemberGroup.GetByName("AmbassadorVolunteers").GetMembers();
+      var memberPerPage = String.IsNullOrEmpty(Parameter.noPerPage) ? 6 : int.Parse(Parameter.noPerPage);
+      
+  }
+
+
+<h3>@umbraco.library.GetDictionaryItem("ExecutiveBoard")</h3>
+	<br><br>
+@foreach(var item in members)
+  {
+	  
+  
+	//<span><a href="?id=@item.Id">@item.Email</a></span>
+      
+	  var media = Library.MediaById(item.getProperty("profileImage").Value.ToString());
+      var profilePic = item.getProperty("profileImage").Value.ToString();
+      
+     <div class="memberlist"> 
+	<div class="member">
+      <img src="@media.Url" alt="@item.Text" title="@item.Text"/><br>
+		<b>@item.Text<br/></b>
+		@item.getProperty("personFunction").Value.ToString()
+		
+		
+	</div>
+	
+    </div>
+     
+  }
+<div class="clear"></div>
+<br><br>
+<h3>@umbraco.library.GetDictionaryItem("AdvisaryBoard")</h3>
+<br><br>
+	
+@foreach(var item in members2)
+  {
+	  
+  
+	//<span><a href="?id=@item.Id">@item.Email</a></span>
+      
+	  var media = Library.MediaById(item.getProperty("profileImage").Value.ToString());
+      var profilePic = item.getProperty("profileImage").Value.ToString();
+      
+     <div class="memberlist"> 
+	<div class="member">
+      <img src="@media.Url" alt="@item.Text" title="@item.Text"/><br>
+		<b>@item.Text<br/></b>
+	
+		
+		
+	</div>
+	
+    </div>
+     
+  }
+
+
+<div class="clear"></div>
+<br><br>
+<h3>@umbraco.library.GetDictionaryItem("AmbassadorVolunteers")</h3>
+<br><br>
+	
+@foreach(var item in members3)
+  {
+	  
+  
+	//<span><a href="?id=@item.Id">@item.Email</a></span>
+      
+	  var media = Library.MediaById(item.getProperty("profileImage").Value.ToString());
+      var profilePic = item.getProperty("profileImage").Value.ToString();
+      
+     <div class="memberlist"> 
+	<div class="member">
+      <img src="@media.Url" alt="@item.Text" title="@item.Text"/><br>
+		<b>@item.Text<br/></b>
+	
+		
+		
+	</div>
+	
+    </div>
+     
+  }
+
+
